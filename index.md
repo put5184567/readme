@@ -2,7 +2,7 @@
 
 ### 总原则
 
-tab键统一为4个空格代替
+tab键统一为 <strong>4个空格</strong> 代替
   因为在不同系统中，编辑工具对tab解析不一样，windows下tab键是4个空格位置，而在linux下是8个
 
 ### 文件规范：
@@ -29,7 +29,7 @@ tab键统一为4个空格代替
 * 命名规则：内容优先，表现为辅，可适当缩写
 
 #### 2、HTML
-* 每个 HTML 页面的第一行添加标准模式（standard mode）的声明，这样能够确保在每个浏览器中拥有一致的展现
+* 每个 HTML 页面的第一行添加标准模式（standard mode）的声明，这样能够确保在每个浏览器中拥有一致的表现
 
   ```
     <!DOCTYPE html>
@@ -55,7 +55,7 @@ tab键统一为4个空格代替
     <meta http-equiv="Cache-Control" content="max-age=7200" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   ```
-* 不准使用表格(table)布局
+* <strong>不准</strong>使用表格(table)布局
 * 代码书写严格参照xhtml规范，标签必须全是小写，所有标签都要关闭，即有开始和结束标签，单个标签使用“/”自关闭
 * 一个标记必须占用一行，不得出现两个标记在同一行的情况
 
@@ -66,7 +66,7 @@ tab键统一为4个空格代替
       </div>
     </div>
   ```
-* 不使用已经废弃的标签，如<center>、<font>等
+* 不使用已经废弃的标签，如\<center>、\<font>等
 * 使用data-xxx形式自定义属性，且属性值必须添加双引号
 
   ```
@@ -74,7 +74,7 @@ tab键统一为4个空格代替
   ```
 * 能以背景形式呈现的图片, 尽量写入css样式中，小图片采用css sprite或data url
 * html中尽量避免使用style="xxx:xxx"的内嵌样式表
-* 段落分隔符要使用实际对应的<p>元素，而不是用多个<br>标签。
+* 段落分隔符要使用实际对应的\<p>元素，而不是用多个\<br>标签。
 * 特殊符号需要做转义，参考HTML [符号实体](http://www.w3school.com.cn/html/html_entities.asp)
 
 #### 3、CSS（麻烦全龙补充）
