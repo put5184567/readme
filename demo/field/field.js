@@ -36,11 +36,7 @@ View._extend(Field, {
   _tplName : 'field',
   _cssName : [],
   _loadCss : function(done){
-    this._cssprefix = '/module/com/form/';
-    this._cssName.push('field');
-    root.loadCss(this._cssprefix, this._cssName, function(){
-      done();
-    });
+    //加载css
   },
   _loadTpls : function(done){
     // 加载模板
